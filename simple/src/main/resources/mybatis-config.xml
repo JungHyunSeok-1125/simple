@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <settings>
+          <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <typeAliases>
+          <typeAlias alias="projectDTO" type="kr.ac.kopo.dto"/>
+    </typeAliases>
+    <mappers>
+	  <mapper resource="kr/ac/kopo/mapper/boardMapper.xml"/>
+   </mappers>
+   
+</configuration>
